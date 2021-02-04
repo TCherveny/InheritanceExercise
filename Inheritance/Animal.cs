@@ -15,10 +15,9 @@ namespace Inheritance
             Walk,
             Slither,
             fly,
-            Swim, 
-
+            Swim
        }
-       //Animal.MethodOfMobility = Animal.MethodOfMobility; 
+       
         public int Eyes { get; set; }
         public string Skin { get; set; }
        

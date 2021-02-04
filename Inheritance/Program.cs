@@ -26,12 +26,16 @@ namespace Inheritance
              * Creatively display the class member values 
              */
             var animal1 = new Animal();
-           
 
-            var bird1 = new Bird();
-            bird1.CapableOfFlight = true;
-            bird1.FeatherCoverd = "Yes";
-            bird1.Vocaliztion = "Quack";
+            animal1.MobilityMethod = Animal.MethodOfMobility.Walk;
+
+            var Emu = new Bird();
+            Emu.CapableOfFlight = false;
+            Emu.FeatherCoverd = "Yes";
+            Emu.Vocaliztion = "drumming";
+            Emu.MobilityMethod = Animal.MethodOfMobility.Walk;
+
+            Console.WriteLine($"{Emu}");
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Bird class
