@@ -20,14 +20,18 @@ namespace Inheritance
             // give this class 4 members that are specific to Reptile
             // Set this class to inherit from your Animal Class
 
-
-
-
             /*Create an object of your Bird class
              *  give values to your members using the object of your Bird class
              *  
              * Creatively display the class member values 
              */
+            var animal1 = new Animal();
+           
+
+            var bird1 = new Bird();
+            bird1.CapableOfFlight = true;
+            bird1.FeatherCoverd = "Yes";
+            bird1.Vocaliztion = "Quack";
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Bird class
